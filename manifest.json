@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "manifest_version": 3,
+  "name": "Twitter Most Liked Default",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["tweet_most_liked_default.js"]
+    }
+  ]
+}
